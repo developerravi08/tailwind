@@ -608,8 +608,16 @@ video {
   height: 8rem;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .w-1\/4 {
   width: 25%;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-11\/12 {
@@ -618,14 +626,6 @@ video {
 
 .w-32 {
   width: 8rem;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-11 {
-  width: 2.75rem;
 }
 
 .border-collapse {
@@ -660,12 +660,12 @@ video {
   border-radius: 0.375rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-blue-400 {
