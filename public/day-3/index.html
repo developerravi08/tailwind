@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Card</title>
+    <link rel="stylesheet" href="./day3.css">
+
+    <style>
+        .customShadow {
+            box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.25) !important;
+        }
+
+        .box {
+
+            /* background: repeating-radial-gradient(circle at 0 0, #eee, #ccc 50px); */
+            background: linear-gradient(90deg, rgba(35, 238, 99, 0.9108237044817927) 0%, rgba(22, 121, 9, 0.8996192226890756) 0%, rgba(4, 145, 22, 0.5550814075630253) 100%);
+        }
+
+        .card {
+
+
+            background: repeating-radial-gradient(circle at 80% 60%, #429101c6, #419101 50px);
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="w-3/4 mx-auto">
+        <img src="./img/ref_Img/day3.jpg" alt="">
+    </div>
+    <div class="w-3/4 mx-auto h-screen  p-40   ">
+        <div class="w-5/6 rounded-3xl p-10 flex content-center items-center mx-auto border-2 customShadow bg-white">
+            <div
+                class=" w-8/12 p-16 rounded-3xl  flex flex-col content-center items-center shadow-2xl -ml-28 mr-14 customShadow bg-[#419101] card box">
+
+                <div class="w-full   ">
+                    <div class="flex justify-end ">
+                        <div>
+                            <img src="./img/visa.png" alt="" class="w-20 h-12 object-contain ">
+                        </div>
+                    </div>
+
+                    <div class=" ">
+
+                        <div class=" mb-3">
+                            <p class="text-[#57b503] font-bold mb-3">Card Number</p>
+                            <p class="text-white font-bold mb-3"> <span>
+                                    1233</span><span>3456</span><span>2375</span><span>7895</span>
+                            </p>
+                        </div>
+
+                        <div class=" w-3/4 flex justify-between">
+                            <div>
+                                <p class="text-[#57b503] font-bold mb-3">Valid Date</p>
+                                <p class="text-white font-bold mb-3">12/08</p>
+                            </div>
+                            <div>
+                                <p class="text-[#57b503] font-bold mb-3">CVV/CVC</p>
+                                <p class="text-white font-bold text-3xl mb-3">&#8226; &#8226; &#8226;</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class=" py-5 px-5 flex flex-col content-center items-center ">
+                <div class="w-full p-5 m-8">
+
+
+                    <div class="flex justify-between mb-4">
+                        <div class="font-bold   text-gray-400 opacity-70">
+                            <p> Sub Total</p>
+                        </div>
+                        <div class="font-bold   text-gray-500">
+                            <p> 100 $</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <div class="font-bold   text-gray-400 opacity-70">
+                            <p> PAYMO Commission</p>
+                        </div>
+                        <div class="font-bold   text-gray-500">
+                            <p> 0.5$</p>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="flex justify-between mb-4 mt-3">
+                        <div class="font-bold   text-gray-400 opacity-70">
+                            <p> Total</p>
+                        </div>
+                        <div class="font-bold   text-gray-500">
+                            <p>100.5$</p>
+                        </div>
+                    </div>
+
+                    <label for="" class="text-lg   block mb-4 font-bold w-full text-gray-400"> Phone Number</label>
+
+                    <input type="text" class="border-b-2 focus:outline-none mb-4 font-bold w-full text-gray-500"
+                        value="+123 345 1234 567">
+
+
+                    <div class="flex justify-between mb-4 text-green-900">
+                        <div class="text-gray-400">
+                            <input type="checkbox" name="" id=""> I aggre with Terms of Uses
+                        </div>
+
+                    </div>
+                    <button class="bg-green-600  hover:bg-green-500 px-4 p-2 rounded-full text-white mb-4">
+                        Click here to Pay
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
