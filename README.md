@@ -28,6 +28,7 @@ npx tailwindcss -i ./main.css -o ./style.css --watch
 run npm live server
 
 open <http://localhost:5500/>
+
 Live <https://developerravi08.github.io/tailwind/>
 
 Day 1  
